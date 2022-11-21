@@ -1,6 +1,9 @@
 package commands
 
-import "time"
+import (
+	"github.com/Modular-Company/modular-bar/internal/domain/orders"
+	"time"
+)
 
 type Command struct {
 	ID          string

@@ -1,6 +1,9 @@
 package orders
 
-import "time"
+import (
+	"github.com/Modular-Company/modular-bar/internal/domain/products"
+	"time"
+)
 
 type Order struct {
 	ID            string

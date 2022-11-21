@@ -1,5 +1,7 @@
 package customers
 
+import "github.com/Modular-Company/modular-bar/internal/domain/commands"
+
 type Customer struct {
 	ID          string
 	Name        string
